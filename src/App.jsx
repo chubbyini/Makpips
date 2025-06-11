@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './hooks/ScrollToTop';
-import Home from './Pages/Home';
-import Projects from './pages/Projects';
 import MeetTheOwner from './Pages/MeetTheOwner';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
 import Forex from './Pages/Forex';
-import Admin from './pages/Admin';
+import Admin from './Admin';
 import PreciousStones from './Pages/PreciousStones';
 
 
