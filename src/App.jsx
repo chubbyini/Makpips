@@ -8,7 +8,7 @@ import Projects from './Pages/Projects';
 import Forex from './Pages/Forex';
 import Admin from './Admin';
 import PreciousStones from './Pages/PreciousStones';
-
+import { PageNotFound } from './Pages/PageNotFound';
 
 export default function App() {
   return (
@@ -26,6 +26,7 @@ export default function App() {
             <Route path="/precious-stones" element={<PreciousStones />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/forex" element={<Forex />} /> {/* ✅ Add this */}
+            <Route path="/*"  element={<PageNotFound />} />             
           </Routes>
         </main>
 
