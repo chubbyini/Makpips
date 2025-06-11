@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const whatsappNumber = "2348140000000"; // Replace with your own if needed
+const whatsappNumber = "18624524670"; // Replace with your own if needed
 
 const sections = {
   preciousMetals: [

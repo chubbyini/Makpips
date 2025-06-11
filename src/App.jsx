@@ -34,13 +34,13 @@ export default function App() {
 
         {/* WhatsApp CTA Button */}
         <a
-          href="https://wa.me/18624524760?text=Hello%2C%20I%27m%20interested%20in%20your%20services."
+          href="https://wa.me/18624524670?text=Hello%2C%20I%27m%20interested%20in%20your%20services."
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg z-50 flex items-center space-x-2"
         >
           <i className="bi bi-whatsapp text-xl"></i>
-          <span>Chat with us</span>
+          <span>Chat with us!</span>
         </a>
       </div>
     </Router>
